@@ -1,0 +1,30 @@
+# Artifact Hub package metadata file
+version: 0.0.1
+name: containerresourceratios
+displayName: Container Ratios
+createdAt: 2022-09-15T00:00:00Z
+description: Sets a maximum ratio for container resource limits to requests. https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
+license: Apache-2.0
+homeURL: https://open-policy-agent.github.io/gatekeeper-library/website/containerresourceratios
+keywords:
+  - gatekeeper
+  - policy
+  - repositories
+links:
+  - name: Source
+    url: https://github.com/open-policy-agent/gatekeeper-library/tree/master/library/general/containerresourceratios
+  - name: Rego source
+    url: https://github.com/open-policy-agent/gatekeeper-library/tree/master/src/general/containerresourceratios
+changes:
+  - kind: added
+    description: Some new cool feature
+  - kind: fixed
+    description: A hard to reproduce annoying issue
+provider:
+  name: Gatekeeper community
+recommendations:
+  - url: https://artifacthub.io/packages/helm/gatekeeper/gatekeeper
+readme: |
+  # Container Ratios
+
+  Sets a maximum ratio for container resource limits to requests. https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
