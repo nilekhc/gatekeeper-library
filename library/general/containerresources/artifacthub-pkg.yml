@@ -1,0 +1,29 @@
+# Artifact Hub package metadata file
+version: 0.0.1
+name: containerresources
+displayName: Required Resources
+createdAt: 2022-09-15T00:00:00Z
+description: Requires containers to have defined resources set. https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
+homeURL: https://open-policy-agent.github.io/gatekeeper-library/website/containerresources
+keywords:
+  - gatekeeper
+  - policy
+  - repositories
+links:
+  - name: Source
+    url: https://github.com/open-policy-agent/gatekeeper-library/tree/master/library/general/containerresources
+  - name: Rego source
+    url: https://github.com/open-policy-agent/gatekeeper-library/tree/master/src/general/containerresources
+changes:
+  - kind: added
+    description: Some new cool feature
+  - kind: fixed
+    description: A hard to reproduce annoying issue
+provider:
+  name: Gatekeeper community
+recommendations:
+  - url: https://artifacthub.io/packages/helm/gatekeeper/gatekeeper
+readme: |
+  # Required Resources
+
+  Requires containers to have defined resources set. https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
