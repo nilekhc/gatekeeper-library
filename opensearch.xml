@@ -4,8 +4,8 @@
   <ShortName>Gatekeeper Library</ShortName>
   <Description>Search Gatekeeper Library</Description>
   <InputEncoding>UTF-8</InputEncoding>
-  <Image width="16" height="16" type="image/x-icon">https://nilekhc.github.io/gatekeeper-library/website/img/favicon.ico</Image>
-  <Url type="text/html" method="get" template="https://nilekhc.github.io/gatekeeper-library/website/search?q={searchTerms}"/>
-  <Url type="application/opensearchdescription+xml" rel="self" template="https://nilekhc.github.io/gatekeeper-library/website/opensearch.xml" />
-  <moz:SearchForm>https://nilekhc.github.io/gatekeeper-library/website/</moz:SearchForm>
+  <Image width="16" height="16" type="image/x-icon">https://nilekhc.github.io/gatekeeper-library/img/favicon.ico</Image>
+  <Url type="text/html" method="get" template="https://nilekhc.github.io/gatekeeper-library/search?q={searchTerms}"/>
+  <Url type="application/opensearchdescription+xml" rel="self" template="https://nilekhc.github.io/gatekeeper-library/opensearch.xml" />
+  <moz:SearchForm>https://nilekhc.github.io/gatekeeper-library/</moz:SearchForm>
 </OpenSearchDescription>
